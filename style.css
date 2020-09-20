@@ -1,4 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
 ul li a{
     color:#ACACAC;
     font-size:18px;
+}
+.container{
+  margin-bottom:40px;
+}
+.background{
+    background-image:url("bg-2.png");
+    background-position: left bottom; 
+    background-repeat:no-repeat;
+}
+
+.col-md-7{
+    background-image:url("bg-1.png");
+    background-position: left bottom; 
+    background-repeat: no-repeat;  
+  
+}
+.col-md-7 img{
+  margin-left:20px;
+  padding-left:20px;
+  
+}
+.my-awesome-btn {
+  border: none;
+  background-color: #000000;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.carousel-indicators {
+  margin-right: 20%;
+  margin-left: 12%;
+  bottom: -20px;
+}
+.carousel-indicators li {
+  background-color: tomato;
+  border-bottom: 0px solid transparent;
+  width: 20px;
+  border-radius:8%;
+}
+.orange-bg{
+  color:orange
+}
+.card {
+  border: 0px solid white;
+}
+.card-body {
+  text-align: center;
+}
+.card-footer {
+  background-color:white;
+  border-top: none;
+  text-align: center;
+}
+.line-color:after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: orange;
+  width: 160px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.box {
+  box-shadow: 5px 5px 10px gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+h4{
+  text-align:center;
+}
+.part2{
+  margin-left:40px;
 }
